@@ -1,20 +1,45 @@
-p {
-    background-color: lightblue;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-li {
-    color:darkblue;
+.bio-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    text-align: left;
 }
 
-h3 {
-    font-style:italic;
+.header h1 {
+    text-align: center;
+    color: #333;
 }
 
-img {
-    opacity: 0.8;
-    border-radius: 50%;
+.bio-info p, .bio-info ul {
+    margin: 10px 0;
+    color: #555;
 }
 
-.avatar {
-    width:200px;
+.bio-info a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.bio-info a:hover {
+    text-decoration: underline;
+}
+
+#country-flag {
+    width: 200px;
+    height: 150px;
+    margin-left: 10px;
+    vertical-align: middle;
 }
